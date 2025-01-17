@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "force": {
+      "type": "integer"
+    },
+    "agilite": {
+      "type": "integer"
+    },
+    "intelligence": {
+      "type": "integer"
+    }
+  }
+}

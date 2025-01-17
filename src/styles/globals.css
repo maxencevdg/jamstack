@@ -1,0 +1,25 @@
+.page {
+    padding: 20px;
+}
+
+.main {
+    text-align: center;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #005bb5;
+}

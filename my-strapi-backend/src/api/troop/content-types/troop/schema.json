@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "troops",
+  "info": {
+    "singularName": "troop",
+    "pluralName": "troops",
+    "displayName": "Troop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pointsDeVie": {
+      "type": "integer"
+    },
+    "attaque": {
+      "type": "integer"
+    },
+    "defense": {
+      "type": "integer"
+    }
+  }
+}
